@@ -12,10 +12,10 @@ Once all child processes have completed, the parent process should release the s
    - You should also be using a **UNIX-like environment** (e.g., Linux or macOS) since the program uses system calls specific to UNIX (e.g., `fork()`, `shmget()`, `shmat()`, `waitpid()`).
 2. **To run**
    - Clone the code from the github( or import the attached code)
-   - In your terminal, cd into the directory CS3113ProgAssign2 with "cd CCS3113ProgAssign2"
-   - Ls to check if the file "ProgAssign2Van0006.c" is in the directory
-   - To compile use, "gcc ProgAssign2Van0006.c -o runnable"
-   - To make changes, "nano ProgAssign2Van0006.c"
+   - In your terminal, cd into the directory that holds the file with "cd [Directory Name]"
+   - Ls to check if the file "ProgrammingProject2.c" is in the directory
+   - To compile use, "gcc ProgrammingProject2.c -o runnable"
+   - To make changes, "nano ProgrammingProject2.c"
    
    - Lastly, "./runnable" to execute the program.
   
